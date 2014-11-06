@@ -1,0 +1,497 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Gulf Construction</title>
+        <meta name="author" content="Binju Paul binju@northstar.bh" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <script src="js/jquery-2.1.1.min.js"></script>
+		<!-- jQueryMobileCSS - styling-->
+		<link rel="stylesheet" href="css/jqeury.mobile.theme.min.css" />
+				
+		<!-- jQueryMobile icons -->
+		<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+		
+		<!-- jQueryMobile core CSS -->
+		<link rel="stylesheet" href="css/jquery.mobile.min.css" />
+		
+		<!-- Owl stylesheet -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		
+		<!-- Owl Theme -->
+		<link rel="stylesheet" href="css/owl.theme.css">
+				
+		<!-- NIGHTLY style -->
+		<link rel="stylesheet" href="css/nightly.css" />
+				
+		<!-- Load Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic|Oswald:400,700' rel='stylesheet' type='text/css'>
+		
+		<!-- Load Font Awesome Icons -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		
+		<!-- jQueryMobile -->
+		<script src="js/jquery.mobile.min.js"></script>
+		
+		<!-- Owl Carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+
+
+
+ 
+
+    </head>
+    <body>
+    
+        <div data-role="page" data-theme='a'>
+        
+            <div data-role="panel" data-display="push" id="sidebar" data-theme="a">
+                    
+                    <img src="images/gulfconstructionlogo.png" />
+                <br /><br />
+
+              <ul id="menu" data-role="listview" data-inset="false" data-icon="false" data-divider-theme="" class="ui-listview" style="text-align: left">
+                    <li><a href="index.html" data-ajax="false" class="ui-btn"><i class="fa fa-home fa-fw" style="width: 20px; text-align: right"></i>Home</a></li>
+                   </ul>
+            </div>
+    
+            <form id="searchform" data-theme="a">
+                <input data-role="none" class="nightly-input" type="text" name="s" placeholder="Enter your text" />
+                <input data-role="none" class="nightly-button" type="submit" name="submit" value="" />
+            </form> 
+    
+            <div data-role="header" data-tap-toggle="false" data-theme='a'>
+                <a href='#sidebar'data-role="none"><img src="images/menu-icon.png" alt="sidebar" id="header-menu-icon" /></a>
+                <h1 class="header-title">
+                    <img src="images/gulfconstructionlogo.png" />
+                </h1>
+                
+            </div>
+            
+            <div data-role="content">
+                <div data-role="none" id="main-slider" class="owl-carousel">
+                            
+                    <div class="item">
+                        <img id="slideimg1"   alt="" style="cursor:pointer">
+                        <div class="htext">
+                            <h2 id="slidetitle1" style="cursor:pointer"></h2>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img id="slideimg2"   alt="" style="cursor:pointer">
+                        <div class="htext">
+                            <h2 id="slidetitle2" style="cursor:pointer"></h2>
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img id="slideimg3"   alt="" style="cursor:pointer">
+                        <div class="htext">
+                            <h2 id="slidetitle3" style="cursor:pointer"></h2>
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img id="slideimg4"   alt="" style="cursor:pointer">
+                        <div class="htext">
+                            <h2 id="slidetitle4" style="cursor:pointer"></h2>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+        
+                <div id="homelist"  data-role="listview" class="tanewslist">
+                    <div id="loading" style="width:16px;height:16px;" class="clear"><img src="images/loading.gif"  /></div>
+                </div>
+
+
+                <div id="gc">
+
+       <ul data-role="listview" data-inset="false" data-icon="false" data-divider-theme="a">
+                        <li id="Li3" data-role="list-divider">Regional News<div class="right" style="font-size:12px; " ><a  id="secmorelink"  class="secmore" >More</a><i class="fa fa-angle-right fa-fw"></i>
+                           </div></li>
+                    </ul>
+
+                    <div id="regionalnews" data-role="listview">
+
+
+                    </div>
+
+                    <br class="clear" />
+                    <div><iframe scrolling="no"   src="http://cdn.gulfconstructiononline.com/app/ads.html" frameborder="0" height="65px" width="475"></iframe></div>
+                    <br class="clear" />
+                    <ul data-role="listview" data-inset="false" data-icon="false" data-divider-theme="a">
+                        <li id="featuretitle1" data-role="list-divider"><div class="right" style="font-size:12px; " ><a id="secmorelink1" class="secmore" >More</a><i class="fa fa-angle-right fa-fw"></i>
+                           </div></li>
+                    </ul>
+                    <div id="featuredet1" data-role="listview"></div>
+
+                    <br class="clear" />
+                    <ul data-role="listview" data-inset="false" data-icon="false" data-divider-theme="a">
+                        <li id="featuretitle2" data-role="list-divider"><div class="right" style="font-size:12px; " ><a id="secmorelink2"  class="secmore" >More</a><i class="fa fa-angle-right fa-fw"></i>
+                           </div></li>
+                    </ul>
+                    <div id="featuredet2" data-role="listview"></div>
+
+                    <br class="clear" />
+
+                    <ul data-role="listview" data-inset="false" data-icon="false" data-divider-theme="a">
+                        <li id="featuretitle3" data-role="list-divider"><div class="right" style="font-size:12px; " ><a id="secmorelink3"  class="secmore"  >More</a><i class="fa fa-angle-right fa-fw"></i>
+                           </div></li>
+                    </ul>
+                    <div id="featuredet3" data-role="listview"></div>
+
+                </div>
+ 
+
+                 
+
+   <div>
+       <iframe scrolling="no"   src="http://cdn.gulfconstructiononline.com/app/ads.html" frameborder="0" height="65px" width="475"></iframe>
+   </div>
+
+ </div>
+
+         <div  data-role="listview" style="background-color:#444; color:#999; font-size:10px;padding:5px 20px;">&copy; Al Hilal Group. &nbsp; &nbsp; &nbsp;powered by Northstar Technologies</div>
+            
+        </div>
+        
+      
+        
+
+                
+     <script type="text/javascript">
+         $(document).ready(function () {
+             var rowcontent = '';
+             var slidercontent = '';
+             var i = 0;
+
+             $.getJSON('http://cdn.gulfconstructiononline.com/TATopNews/?jsoncallback=?', function (data) {
+
+                 rowcontent = "<table>";
+
+                 $.each(data, function (key, value) {
+                     i++;
+
+                    
+
+                     if (i == 1) {
+                         $('#slideimg1').attr('src', data[key].ImageFileNameSRC);
+                         $('#slidetitle1').text(data[key].Title);
+                         $('#slideimg1,#slidetitle1').attr('onclick', 'javascript:window.location.replace("tadetails.html?id=' + data[key].ArticleID + '")');
+
+                     }
+                     else if (i == 2) {
+                         $('#slideimg2').attr('src', data[key].ImageFileNameSRC);
+                         $('#slidetitle2').text(data[key].Title);
+                         $('#slideimg2,#slidetitle2').attr('onclick', 'javascript:window.location.replace("tadetails.html?id=' + data[key].ArticleID + '")');
+                     }
+                     else if (i == 3) {
+                         $('#slideimg3').attr('src', data[key].ImageFileNameSRC);
+                         $('#slidetitle3').text(data[key].Title);
+                         $('#slideimg3,#slidetitle3').attr('onclick', 'javascript:window.location.replace("tadetails.html?id=' + data[key].ArticleID + '")');
+                     }
+                     else if (i == 4) {
+                         $('#slideimg4').attr('src', data[key].ImageFileNameSRC);
+                         $('#slidetitle4').text(data[key].Title);
+                         $('#slideimg4,#slidetitle4').attr('onclick', 'javascript:window.location.replace("tadetails.html?id=' + data[key].ArticleID + '")');
+                     }
+                     else if (i > 4 && i < 15) {
+                         rowcontent += "<tr><td style='padding:5px 0px;vertical-align:top'><i class='fa fa-angle-right fa-fw'></i></td>";
+                         rowcontent += "<td style='padding:5px 0px;vertical-align:top'><span style='cursor:pointer'  onclick=javascript:window.location.replace('tadetails.html?id=" + data[key].ArticleID + "')>" + data[key].Title + "</span></td></tr>";
+                         
+                         
+                     }
+
+                 });
+                 rowcontent += "</table>";
+                 $('.tanewslist').append(rowcontent);
+
+                 $('#loading').hide();
+
+             });
+
+             //GC
+             var gccontent = "";
+             var sectionissueid = 0;
+
+             var flagfea1 = 0;
+             var flagfea2 = 0;
+             var flagfea3 = 0;
+             var featuretitle = "";
+             var featuretitle1 = "";
+             var featuretitle2 = "";
+             var featuretitle3 = "";
+
+             var sectiontitle = "";
+
+
+             var a = 0;
+             var b = 0;
+             var c = 0;
+             var d = 0;
+
+
+             $.getJSON('http://cdn.gulfconstructiononline.com/gcHome/?jsoncallback=?', function (data) {
+                 $.each(data, function (key, value) {
+
+
+                     if (sectiontitle != data[key].sectiontitle) {
+                         $('#menu').append("<li><a onclick=javascript:window.location.replace('section.html?id=" + data[key].sectionissueid + "') data-ajax='false' class='ui-btn'><i class='fa fa-align-center' style='width: 20px; text-align: right'></i>" + data[key].sectiontitle + "</a></li>");
+                         sectiontitle = data[key].sectiontitle;
+                     }
+
+
+
+                     if (data[key].sectiontitle == 'Regional News') {
+                         a++;
+                         if (a <= 4) {
+                             gccontent += "<div style='padding: 4px 5px;'><div data-role='listview' class='newsitem'>";
+                             gccontent += "<div class='left' style='width: 200px;'><a class='readmore ' onclick=javascript:window.location.replace('details.html?id=" + data[key].articleid + "') style='color:black;text-decoration:none; line-height:12px;' title='Read More'>" + data[key].title + "</a></div>";
+                             gccontent += "<div style='width:100px; height: 63px;overflow:hidden' class='right'><img  style='width: 100px; height: 63px;' class='ui-li-has-thumb' src='http://www.gulfconstructiononline.com/" + data[key].imagefilename + "' /></div>";
+                             gccontent += "<a class='readmore' onclick=javascript:window.location.replace('details.html?id=" + data[key].articleid + "') title='Read More'><i class='clear fa fa-external-link fa-fw'></i></a></div></div>";
+                             $('#regionalnews').append(gccontent);
+                             $('#secmorelink').attr('onclick', 'javascript:window.location.replace("section.html?id=' + data[key].sectionissueid + '")');
+                             gccontent = '';
+                         }
+                     }
+
+                     if (data[key].sectiontype == 1) {
+                         if (flagfea1 == 0) {
+                             $('#featuretitle1').append(data[key].sectiontitle);
+                             featuretitle = data[key].sectiontitle;
+                             featuretitle1 = data[key].sectiontitle;
+                             $('#secmorelink1').attr('onclick', 'javascript:window.location.replace("section.html?id=' + data[key].sectionissueid + '")');
+                             flagfea1 = 1;
+                         }
+                         if (flagfea2 == 0) {
+                             if (featuretitle != data[key].sectiontitle) {
+                                 $('#featuretitle2').append(data[key].sectiontitle);
+                                 featuretitle = data[key].sectiontitle;
+                                 featuretitle2 = data[key].sectiontitle;
+                                 $('#secmorelink2').attr('onclick', 'javascript:window.location.replace("section.html?id=' + data[key].sectionissueid + '")');
+                                 flagfea2 = 1;
+                             }
+                         }
+                         if (flagfea3 == 0) {
+                             if (featuretitle != data[key].sectiontitle) {
+                                 $('#featuretitle3').append(data[key].sectiontitle);
+                                 featuretitle = data[key].sectiontitle;
+                                 featuretitle3 = data[key].sectiontitle;
+                                 $('#secmorelink3').attr('onclick', 'javascript:window.location.replace("section.html?id=' + data[key].sectionissueid + '")');
+                                 flagfea3 = 1;
+                             }
+                         }
+                     }
+
+                     if (featuretitle1 == data[key].sectiontitle) {
+                         b++;
+                         if (b <= 4) {
+                             gccontent += "<div style='padding: 4px 5px;'><div data-role='listview' class='newsitem'>";
+                             gccontent += "<div class='left' style='width: 200px;'><a style='color:black;text-decoration:none; line-height:12px;' onclick=javascript:window.location.replace('details.html?id=" + data[key].articleid + "') title='Read More'>" + data[key].title + "</a></div>";
+                             gccontent += "<div style='width:100px; height: 63px;overflow:hidden' class='right'><img  style='width: 100px; height: 63px;' class='ui-li-has-thumb' src='http://www.gulfconstructiononline.com/" + data[key].imagefilename + "' /></div>";
+                             gccontent += "<a class='readmore' onclick=javascript:window.location.replace('details.html?id=" + data[key].articleid + "') title='Read More'><i class='clear fa fa-external-link fa-fw'></i></a></div></div>";
+                             $('#featuredet1').append(gccontent);
+                             gccontent = '';
+                         }
+                     }
+
+                     if (featuretitle2 == data[key].sectiontitle) {
+                         c++;
+                         if (c <= 4) {
+                             gccontent += "<div style='padding: 4px 5px;'><div data-role='listview' class='newsitem'>";
+                             gccontent += "<div class='left' style='width: 200px;'><a style='color:black;text-decoration:none; line-height:12px;' onclick=javascript:window.location.replace('details.html?id=" + data[key].articleid + "') title='Read More'>" + data[key].title + "</a></div>";
+                             gccontent += "<div style='width:100px; height: 63px;overflow:hidden' class='right'><img  style='width: 100px; height: 63px;' class='ui-li-has-thumb' src='http://www.gulfconstructiononline.com/" + data[key].imagefilename + "' /></div>";
+                             gccontent += "<a class='readmore' onclick=javascript:window.location.replace('details.html?id=" + data[key].articleid + "') title='Read More'><i class='clear fa fa-external-link fa-fw'></i></a></div></div>";
+                             $('#featuredet2').append(gccontent);
+                             gccontent = '';
+                         }
+                     }
+
+                     if (featuretitle3 == data[key].sectiontitle) {
+                         d++;
+                         if (d <= 4) {
+                             gccontent += "<div style='padding: 4px 5px;'><div data-role='listview' class='newsitem'>";
+                             gccontent += "<div class='left' style='width: 200px;'><a style='color:black;text-decoration:none; line-height:12px;' onclick=javascript:window.location.replace('details.html?id=" + data[key].articleid + "') title='Read More'>" + data[key].title + "</a></div>";
+                             gccontent += "<div style='width:100px; height: 63px;overflow:hidden' class='right'><img  style='width: 100px; height: 63px;' class='ui-li-has-thumb' src='http://www.gulfconstructiononline.com/" + data[key].imagefilename + "' /></div>";
+                             gccontent += "<a class='readmore' onclick=javascript:window.location.replace('details.html?id=" + data[key].articleid + "' title='Read More'><i class='clear fa fa-external-link fa-fw'></i></a></div></div>";
+                             $('#featuredet3').append(gccontent);
+                             gccontent = '';
+                         }
+                     }
+
+
+                     
+
+                     
+                 });
+
+                 $('#menu').append("<li><a onclick=javascript:window.location.replace('advertise.html') data-ajax='false' class='ui-btn'><i class='fa fa-th-large fa-fw' style='width: 20px; text-align: right'></i>Advertise</a></li><li><a onclick=javascript:window.location.replace('contact.html') data-ajax='false' class='ui-btn'><i class='fa fa-phone fa-fw' style='width: 20px; text-align: right'></i>Contact Us</a></li>");
+
+             });
+
+            
+         });
+            
+
+        </script>
+
+          <script type="text/javascript">
+
+              $(document).ready(function ($) {
+
+                  "use strict";
+
+                  var aSearchClicked = false;
+
+                  jQuery(".sub-menu").hide();
+
+                  if ("ontouchstart" in document.documentElement) {
+                      jQuery(".menu-item-has-children").bind('touchstart touchon', function (event) {
+                          event.preventDefault();
+                          jQuery(this).children(".sub-menu").toggleClass("active").toggle(350);
+                          return false;
+                      }).children(".sub-menu").children("li").bind('touchstart touchon', function (event) {
+                          window.location.href = jQuery(this).children("a").attr("href");
+                      });
+                      $('#a-search').bind('touchstart touchon', function (event) {
+                          if (aSearchClicked) {
+                              $('#searchform').removeClass('moved');
+                              aSearchClicked = false;
+                          }
+                          else {
+                              $('#searchform').addClass('moved');
+                              aSearchClicked = true;
+                          }
+                      });
+                  }
+                  else {
+
+                      jQuery(".menu-item-has-children").bind('click', function (event) {
+                          event.preventDefault();
+                          jQuery(this).children(".sub-menu").toggleClass("active").toggle(350);
+                          return false;
+                      }).children(".sub-menu").children("li").bind('click', function (event) {
+                          window.location.href = jQuery(this).children("a").attr("href");
+                      });
+                      $('#a-search').bind('click', function (event) {
+                          if (aSearchClicked) {
+                              $('#searchform').removeClass('moved');
+                              aSearchClicked = false;
+                          }
+                          else {
+                              $('#searchform').addClass('moved');
+                              aSearchClicked = true;
+                          }
+                      });
+
+                  }
+
+                  var time = 8; // time in seconds
+
+                  var $progressBar,
+                      $bar,
+                      $elem,
+                      isPause,
+                      tick,
+                      percentTime;
+
+
+                  $("#main-slider").owlCarousel({
+
+                      slideSpeed: 700,
+                      paginationSpeed: 700,
+                      rewindSpeed: 1500,
+                      singleItem: true,
+                      pagination: false,
+                      lazyLoad: true,
+                      autoPlay: 10000,
+                      stopOnHover: true,
+                      navigation: false,
+                      navigationText: [
+                        "<i class='owl-nav-left fa fa-angle-left'></i>",
+                        "<i class='owl-nav-right fa fa-angle-right'></i>"
+                      ],
+                      afterInit: progressBar,
+                      afterMove: moved,
+                      startDragging: pauseOnDragging
+                  });
+
+
+                  function progressBar(elem) {
+                      $elem = elem;
+                      buildProgressBar();
+                      start();
+                  }
+
+
+                  function buildProgressBar() {
+                      $progressBar = $("<div>", {
+                          id: "progressBar"
+                      });
+                      $bar = $("<div>", {
+                          id: "bar"
+                      });
+                      $progressBar.append($bar).prependTo($elem);
+                  }
+
+                  function start() {
+
+                      percentTime = 0;
+                      isPause = false;
+
+                      tick = setInterval(interval, 10);
+                  };
+
+                  function interval() {
+                      if (isPause === false) {
+                          percentTime += 1 / time;
+                          $bar.css({
+                              width: percentTime + "%"
+                          });
+
+                          if (percentTime >= 100) {
+
+                              $elem.trigger('owl.next')
+                          }
+                      }
+                  }
+
+                  function pauseOnDragging() {
+                      isPause = true;
+                  }
+
+                  function moved() {
+
+                      clearTimeout(tick);
+                      start();
+                  }
+
+
+                  $elem.on('mouseover', function () {
+                      isPause = true;
+                  })
+                  $elem.on('mouseout', function () {
+                      isPause = false;
+                  })
+
+
+
+
+
+
+
+
+              });
+
+        </script>
+
+    </body>
+</html>
