@@ -229,7 +229,7 @@ button .fa, a .fa {
 
 .ui-li-divider {
     text-transform: uppercase;
-    font-weight: 300 !important;
+    font-weight: 600 !important;
     letter-spacing: 1px;
 }
 
@@ -1006,3 +1006,4 @@ a.secmore.ui-link {color:white;text-decoration:none}
 .nomarginpadding {margin:0px; padding:0px;}
 
 #menu {font-size:10px;}
+.back-to-top {    position: fixed;    bottom: 2em;    right: 20px;    text-decoration: none;    color: #000000;    padding: 1em;    display: none;    border-radius:3px;}
